@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "IDHDATACUBE", "IDHDATACUBE\IDHDATACUBE.dwproj", "{9052D1BF-D68F-A8CF-64CD-0D8B9ECC76F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9052D1BF-D68F-A8CF-64CD-0D8B9ECC76F3}.Development|Default.ActiveCfg = Development
+		{9052D1BF-D68F-A8CF-64CD-0D8B9ECC76F3}.Development|Default.Build.0 = Development
+		{9052D1BF-D68F-A8CF-64CD-0D8B9ECC76F3}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {747EEF98-C697-4673-A154-A3BE3B109FF4}
+	EndGlobalSection
+EndGlobal

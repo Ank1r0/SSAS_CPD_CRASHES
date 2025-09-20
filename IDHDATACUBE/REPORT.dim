@@ -1,0 +1,439 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d76986a9-8041-4d81-9c73-39a83d9ad2c9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>REPORT</ID>
+  <Name>REPORT</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3340" scrolltop="-6654" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12197" y="18309" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="REPORT" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6774" height="9525" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000761a000035250000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_REPORT" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3340</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6654</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0e5b655b-a4fc-4e42-8a28-2b310e0bd1f0">
+    <DataSourceViewID>s22734</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="423dd9ef-26a7-40c1-bac0-112a7a013f60">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="abf89faa-f53c-481f-a786-e62da1544603">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fd0569d0-5635-468f-af08-fc420f437d4e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="628c6596-f980-4ce1-a5b9-5a00212ff92b">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e3d89041-68d9-4a95-9cdd-848f1cbafcf1">
+          <AttributeID>REPORT TYPE</AttributeID>
+          <Name>REPORT TYPE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5650ed60-0fc3-452f-9dc4-142bc83de045">
+          <AttributeID>CRASH TYPE</AttributeID>
+          <Name>CRASH TYPE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e5b40f93-cab4-4917-a5ec-cb39d56e3413">
+          <AttributeID>INTERSECTION RELATED I</AttributeID>
+          <Name>INTERSECTION RELATED I</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="406b3e81-36d2-4540-94dc-86aef93c622a">
+          <AttributeID>NOT RIGHT OF WAY I</AttributeID>
+          <Name>NOT RIGHT OF WAY I</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e0dc9a10-842f-4321-9165-9b3d568c01a5">
+          <AttributeID>HIT AND RUN I</AttributeID>
+          <Name>HIT AND RUN I</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8d42156b-f2c1-4b43-9c10-57fc8db99d0d">
+          <AttributeID>DAMAGE</AttributeID>
+          <Name>DAMAGE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="57ac06f3-8a99-4ae8-bfa0-807f58282157">
+          <AttributeID>DATE POLICE NOTIFIED</AttributeID>
+          <Name>DATE POLICE NOTIFIED</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="68feb30d-5dd3-4218-bcd4-ec3cb36c524b">
+          <AttributeID>PRIM CONTRIBUTORY CAUSE</AttributeID>
+          <Name>PRIM CONTRIBUTORY CAUSE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb7e25c7-b80b-41ab-8e55-169ebac02aa0">
+          <AttributeID>SEC CONTRIBUTORY CAUSE</AttributeID>
+          <Name>SEC CONTRIBUTORY CAUSE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c08ec254-0974-4a47-be7e-0ef80532f9ba">
+          <AttributeID>PHOTOS TAKEN I</AttributeID>
+          <Name>PHOTOS TAKEN I</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0ca60555-a207-4eff-9492-4f851ad6ae98">
+          <AttributeID>STATEMENTS TAKEN I</AttributeID>
+          <Name>STATEMENTS TAKEN I</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2b0f2f7e-103d-445a-ada8-6ebe4fb4132a">
+          <AttributeID>CRASH DATE EST I</AttributeID>
+          <Name>CRASH DATE EST I</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e36a0943-372a-4c96-bbac-1c78d7c1318b">
+          <AttributeID>DOORING I</AttributeID>
+          <Name>DOORING I</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b993a0b3-84de-48f2-a838-50ded22a380a">
+          <AttributeID>LANE CNT</AttributeID>
+          <Name>LANE CNT</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="79eb4bc8-bae8-4716-8814-e802cdeed8b0">
+          <AttributeID>NUM UNITS</AttributeID>
+          <Name>NUM UNITS</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="544f19f9-08a4-401f-a2bb-e6cf2e4b0ddd">
+          <AttributeID>MOST SEVERE INJURY</AttributeID>
+          <Name>MOST SEVERE INJURY</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6a73718-4318-4365-99d9-606d6b9c9b02">
+          <AttributeID>FIRST CRASH TYPE</AttributeID>
+          <Name>FIRST CRASH TYPE</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="72e5050e-3932-411b-a250-53b1b487e8ca">
+      <ID>REPORT TYPE</ID>
+      <Name>REPORT TYPE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="626bb057-8e7a-4ebf-82e1-6fdfe34cf350">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc7226b0-f44c-4db0-b656-bfe0266e10a4">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>REPORT_TYPE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="054da1c0-c3fb-4943-9ffe-d1013e0b1a9f">
+      <ID>CRASH TYPE</ID>
+      <Name>CRASH TYPE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="070e8756-8402-4260-92e0-9d1f00c04870">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf3ec9fd-9018-4ce2-9723-04fb4b0168d3">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>CRASH_TYPE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c7830640-cbb3-4819-a3a3-1f2613b1a13e">
+      <ID>INTERSECTION RELATED I</ID>
+      <Name>INTERSECTION RELATED I</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5f8dfb78-9c6a-44a1-9d53-4425be3ca803">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b7c0c9fa-d7af-4cbf-a5da-31fa340d9880">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>INTERSECTION_RELATED_I</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fe9e5b10-dfb1-49be-9873-47bfed7812c5">
+      <ID>NOT RIGHT OF WAY I</ID>
+      <Name>NOT RIGHT OF WAY I</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5cd73bdc-66f1-4eb3-8228-9fb2edc26dae">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c5e70620-eb72-4072-95b6-39fe7d709b23">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>NOT_RIGHT_OF_WAY_I</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="65cd6233-919d-471a-a8b4-ff2d5757a744">
+      <ID>HIT AND RUN I</ID>
+      <Name>HIT AND RUN I</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="863cebe3-4f7b-4359-9535-4a27ab648271">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="60334ddf-c930-4be4-9639-7ad1ec0e697d">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>HIT_AND_RUN_I</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5f21b0b2-658d-4f41-bf8a-299dd4d8dd26">
+      <ID>DAMAGE</ID>
+      <Name>DAMAGE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="df20e2b1-2b6e-4fdc-b33c-7a38fd94ff05">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="30359777-4d18-4d11-af74-3716018b2f56">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>DAMAGE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f4fff7b4-78eb-404b-b603-f50f6fa9b9dc">
+      <ID>DATE POLICE NOTIFIED</ID>
+      <Name>DATE POLICE NOTIFIED</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1be9d7c8-ca03-475f-af84-8f82de5c40b9">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8518c34d-fbef-4445-bc4f-3b5d7f93353e">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>DATE_POLICE_NOTIFIED</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2ca8d0a9-31eb-4e2f-899b-1651e55b5409">
+      <ID>PRIM CONTRIBUTORY CAUSE</ID>
+      <Name>PRIM CONTRIBUTORY CAUSE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ad22f314-374e-437f-9ca1-7b5a76e485cc">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8b4e457-42da-4a2d-a56b-96b45cd5f605">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>PRIM_CONTRIBUTORY_CAUSE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6eb5744f-005a-495c-b2a9-45e8a74b8245">
+      <ID>SEC CONTRIBUTORY CAUSE</ID>
+      <Name>SEC CONTRIBUTORY CAUSE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f65e85b-bae3-467f-a4d2-f142efd87df9">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3a8a6631-1d9d-4525-9c65-b771ede124a2">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>SEC_CONTRIBUTORY_CAUSE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6e860963-d288-4c1d-9566-71253a1a5231">
+      <ID>PHOTOS TAKEN I</ID>
+      <Name>PHOTOS TAKEN I</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="085abf13-7107-4eef-916e-c3a8d37fc982">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="158508b7-1992-4fb8-8e8f-79ffa3839049">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>PHOTOS_TAKEN_I</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="85a14889-ba01-4555-9003-b445c5df1a1c">
+      <ID>STATEMENTS TAKEN I</ID>
+      <Name>STATEMENTS TAKEN I</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bcc6d6ff-65dc-4ac4-9c46-098a470883a2">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="27d9468c-a708-4b64-9671-0cd0162df8cc">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>STATEMENTS_TAKEN_I</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9e78bde0-4d92-4b98-85db-725470194658">
+      <ID>CRASH DATE EST I</ID>
+      <Name>CRASH DATE EST I</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ccb42451-6451-474e-b8e2-0470aba6543c">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bdcb66ea-393a-4220-8391-c90063948483">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>CRASH_DATE_EST_I</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6b94229d-0c52-4f22-9108-e8a776bb6ea5">
+      <ID>DOORING I</ID>
+      <Name>DOORING I</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7d4e1fd8-9e5b-4870-84b3-15585ba9bbec">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef9a86f9-d62f-424e-a065-53b3e374f949">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>DOORING_I</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bec85422-c75c-4d81-a569-c7757ad4ebc1">
+      <ID>LANE CNT</ID>
+      <Name>LANE CNT</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e8a138e1-7d4e-487d-bae0-c2ca00546639">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c32df0c-b2d6-4094-a523-2eb78d755d70">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>LANE_CNT</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b11dda96-8ac2-4402-bdab-c781e15fc1d2">
+      <ID>NUM UNITS</ID>
+      <Name>NUM UNITS</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1f45cd8b-b548-4ca5-a5c1-0d3eb0af55c3">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a47d6dea-ddfc-4e9f-b15a-e7e05bfeee01">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>NUM_UNITS</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f9610342-99cb-4c78-a432-4f551665b829">
+      <ID>MOST SEVERE INJURY</ID>
+      <Name>MOST SEVERE INJURY</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1699b15-49ca-4221-bd11-1a7cd9e1bb6a">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b97abe02-971c-4618-ad72-bb21242ea362">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>MOST_SEVERE_INJURY</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eec2e615-e513-45ab-8c68-17b94b15d39d">
+      <ID>FIRST CRASH TYPE</ID>
+      <Name>FIRST CRASH TYPE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2c6c974d-829c-459e-9690-5c3ab566f068">
+          <DataType>WChar</DataType>
+          <DataSize>80</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4c80277-a3f4-4b7b-b0bd-2c87bff48512">
+            <TableID>dbo_REPORT</TableID>
+            <ColumnID>FIRST_CRASH_TYPE</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
